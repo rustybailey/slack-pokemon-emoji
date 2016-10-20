@@ -65,7 +65,7 @@ module.exports = function upload (team, cookie) {
       if (err) {
         console.log(`Upload file ${file} error: ${err}`)
       } else {
-        console.log(`Done uplaod ${file}`)
+        console.log(`Done uploading ${file}`)
       }
     })
   }
